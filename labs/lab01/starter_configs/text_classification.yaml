@@ -2,20 +2,30 @@ exp: TextClassification
 
 mode: 
     - evaluate
+    - analyze
 
 models:
     hf_text_classification_model:
       - siebert/sentiment-roberta-large-english
+      - roberta-large
 
-predfpath: ../cosc426/labs/lab01/predictions/sentiment.tsv
+predfpath: ../cosc426/labs/lab01/predictions/sentiment_review.tsv
+# predicted data path file for question 2 of part 3
 
+#datafpath: ../cosc426/labs/lab01/data/sentiment.tsv
 datafpath: ../cosc426/labs/lab01/data/sentiment.tsv
 
-resultsfpath: ../cosc426/labs/lab01/results/sentiment.tsv
+#resultsfpath: ../cosc426/labs/lab01/results/sentiment.tsv
+# results data path file for Q2 part 3
+resultsfpath: ../cosc426/labs/lab01/results/sentiment_review.tsv
 
 id2label:
     1: Positive
     0: Negative
 
-save: by_cond, by_target
+#save: by_cond, by_target
+save: by_cond
+
+conditions: type
+
 

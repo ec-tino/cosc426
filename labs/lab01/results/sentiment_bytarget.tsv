@@ -1,0 +1,5 @@
+	model	target_class	precision	recall	f1
+0	roberta-large	Positive	0.8	0.5	0.6153846153846154
+1	roberta-large	Negative	0.6363636363636364	0.875	0.7368421052631579
+2	siebert/sentiment-roberta-large-english	Positive	0.8	0.5	0.6153846153846154
+3	siebert/sentiment-roberta-large-english	Negative	0.6363636363636364	0.875	0.7368421052631579

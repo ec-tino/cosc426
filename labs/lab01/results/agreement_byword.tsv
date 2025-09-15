@@ -1,0 +1,241 @@
+	model	lemma	level_1	sentid	wordpos_mod	prob	surp	pairid	contextid	number	comparison	sentence	ROI
+0	distilbert-base-uncased	BE	0	1	0	0.023614385179826	8.614090919494629	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+1	distilbert-base-uncased	BE	3	1	1	0.0147887486964464	6.0793561935424805	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+2	distilbert-base-uncased	BE	6	1	2	0.0003512658295221	11.475149154663086	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+3	distilbert-base-uncased	BE	9	1	3	0.0183450412005186	5.768465995788574	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+4	distilbert-base-uncased	BE	12	1	4	0.0246284697204828	5.343529224395752	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+5	distilbert-base-uncased	BE	15	1	5	0.3516180798505957	4.587275591650041	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+6	distilbert-base-uncased	BE	18	2	0	0.01810184121131895	8.746773958206177	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+7	distilbert-base-uncased	BE	21	2	1	0.0201765391975641	5.6311774253845215	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+8	distilbert-base-uncased	BE	24	2	2	2.796843318719766e-06	18.447769165039062	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+9	distilbert-base-uncased	BE	27	2	3	0.0001458238693885	12.743485450744627	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+10	distilbert-base-uncased	BE	30	2	4	0.0153256710618734	6.0279059410095215	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+11	distilbert-base-uncased	BE	33	2	5	0.2959788550433586	4.939482210742426	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+12	distilbert-base-uncased	LIKE	36	3	0	0.034169355843914645	8.376915454864502	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+13	distilbert-base-uncased	LIKE	39	3	1	0.0388521812856197	4.685860633850098	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+14	distilbert-base-uncased	LIKE	42	3	2	0.0004907849361188	10.992621421813965	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+15	distilbert-base-uncased	LIKE	45	3	3	0.0023136092349886	8.75563907623291	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+16	distilbert-base-uncased	LIKE	48	3	4	0.0327309891581535	4.933198928833008	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+17	distilbert-base-uncased	LIKE	51	3	5	0.3639863339267322	4.070592909700736	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+18	distilbert-base-uncased	LIKE	54	4	0	0.0103691708645783	8.194279432296753	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+19	distilbert-base-uncased	LIKE	57	4	1	0.0119494786486029	6.386908531188965	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+20	distilbert-base-uncased	LIKE	60	4	2	5.787557165604085e-05	14.076685905456545	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+21	distilbert-base-uncased	LIKE	63	4	3	0.0017199071589857	9.183453559875488	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+22	distilbert-base-uncased	LIKE	66	4	4	0.0185617115348577	5.751526355743408	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+23	distilbert-base-uncased	LIKE	69	4	5	0.3454199019142834	4.358711597009005	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+24	distilbert-base-uncased	BE	72	5	0	0.02331256803881835	8.689390897750854	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+25	distilbert-base-uncased	BE	75	5	1	0.0179217215627431	5.802146911621094	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+26	distilbert-base-uncased	BE	78	5	2	0.3524728230840992	5.568346075864004	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+27	distilbert-base-uncased	BE	81	5	3	0.0047177448868751	7.727686882019043	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+28	distilbert-base-uncased	BE	84	5	4	0.0098755881190299	6.661917686462402	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+29	distilbert-base-uncased	BE	87	5	5	0.1075356125147664	7.45720112323761	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+30	distilbert-base-uncased	BE	90	6	0	0.015647863401682102	8.868186235427856	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+31	distilbert-base-uncased	BE	93	6	1	0.1044267416000366	3.259436845779419	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+32	distilbert-base-uncased	BE	96	6	2	0.3665548032440711	5.061217571434099	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+33	distilbert-base-uncased	BE	99	6	3	3.165513771818951e-05	14.947200775146484	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+34	distilbert-base-uncased	BE	102	6	4	0.0097066974267363	6.686803817749023	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+35	distilbert-base-uncased	BE	105	6	5	0.09374665956283934	9.73535704612732	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+36	distilbert-base-uncased	LIKE	108	7	0	0.045265328539244344	7.924480199813844	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+37	distilbert-base-uncased	LIKE	111	7	1	0.0376294218003749	4.731995105743408	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+38	distilbert-base-uncased	LIKE	114	7	2	0.34980759241928655	5.074726758901306	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+39	distilbert-base-uncased	LIKE	117	7	3	0.000220274363528	12.14841079711914	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+40	distilbert-base-uncased	LIKE	120	7	4	0.0197578538209199	5.6614298820495605	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+41	distilbert-base-uncased	LIKE	123	7	5	0.11825589187515106	9.793837189674377	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+42	distilbert-base-uncased	LIKE	126	8	0	0.0183773429016582	7.3700923919677725	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+43	distilbert-base-uncased	LIKE	129	8	1	0.0271304938942194	5.2039408683776855	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+44	distilbert-base-uncased	LIKE	132	8	2	0.33653149948077044	6.82567253036359	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+45	distilbert-base-uncased	LIKE	135	8	3	6.893741374369711e-05	13.824353218078612	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+46	distilbert-base-uncased	LIKE	138	8	4	0.0112916203215718	6.468603610992432	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+47	distilbert-base-uncased	LIKE	141	8	5	0.08019039572809558	9.170280575752258	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+48	distilbert-base-uncased	BE	144	9	0	0.0006975871519898227	12.623949527740479	5	3	plu	expected	Hello, students are chameleons.	2,3
+49	distilbert-base-uncased	BE	147	9	1	2.7157673684996556e-05	15.168280601501465	5	3	plu	expected	Hello, students are chameleons.	2,3
+50	distilbert-base-uncased	BE	150	9	2	0.0984961837530136	3.343788385391236	5	3	plu	expected	Hello, students are chameleons.	2,3
+51	distilbert-base-uncased	BE	153	9	3	0.2778801290536648	4.653990685599274	5	3	plu	expected	Hello, students are chameleons.	2,3
+52	distilbert-base-uncased	BE	156	10	0	0.0005856398947798822	11.963329792022705	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+53	distilbert-base-uncased	BE	159	10	1	2.9866928343835752e-06	18.35301971435547	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+54	distilbert-base-uncased	BE	162	10	2	0.0001614099310245	12.596982955932615	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+55	distilbert-base-uncased	BE	165	10	3	0.21910534960625222	5.958594704748248	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+56	distilbert-base-uncased	LIKE	168	11	0	0.0017414097019354	10.444167613983154	6	3	plu	expected	Hello, students like chameleons.	2,3
+57	distilbert-base-uncased	LIKE	171	11	1	4.281259316485375e-05	14.511605262756348	6	3	plu	expected	Hello, students like chameleons.	2,3
+58	distilbert-base-uncased	LIKE	174	11	2	0.0517781935632228	4.271511554718018	6	3	plu	expected	Hello, students like chameleons.	2,3
+59	distilbert-base-uncased	LIKE	177	11	3	0.26722257399233057	4.297898170174449	6	3	plu	expected	Hello, students like chameleons.	2,3
+60	distilbert-base-uncased	LIKE	180	12	0	0.0012208206208015211	11.41441822052002	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+61	distilbert-base-uncased	LIKE	183	12	1	8.960649211076088e-06	16.76796531677246	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+62	distilbert-base-uncased	LIKE	186	12	2	0.0003014969406649	11.695569038391112	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+63	distilbert-base-uncased	LIKE	189	12	3	0.27110232436098153	4.049216970421549	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+64	distilbert-base-uncased	BE	192	13	0	0.0010704692740546242	12.497334003448486	7	4	plu	expected	Hello, chameleons are students.	2,3
+65	distilbert-base-uncased	BE	195	13	1	0.33905305659209256	4.734341483686876	7	4	plu	expected	Hello, chameleons are students.	2,3
+66	distilbert-base-uncased	BE	198	13	2	0.0399554334580898	4.645464420318604	7	4	plu	expected	Hello, chameleons are students.	2,3
+67	distilbert-base-uncased	BE	201	13	3	0.04361469455079712	10.178131580352783	7	4	plu	expected	Hello, chameleons are students.	2,3
+68	distilbert-base-uncased	BE	204	14	0	0.0014524098514811757	11.097136497497559	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+69	distilbert-base-uncased	BE	207	14	1	0.2640476148590096	6.140696647547884	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+70	distilbert-base-uncased	BE	210	14	2	0.0003154590667691	11.63025951385498	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+71	distilbert-base-uncased	BE	213	14	3	0.017327882044128228	11.199967861175537	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+72	distilbert-base-uncased	LIKE	216	15	0	0.0058537472141324	9.497830390930176	8	4	plu	expected	Hello, chameleons like students.	2,3
+73	distilbert-base-uncased	LIKE	219	15	1	0.29820610456954455	4.73957972190874	8	4	plu	expected	Hello, chameleons like students.	2,3
+74	distilbert-base-uncased	LIKE	222	15	2	0.0059466059319674	7.3937177658081055	8	4	plu	expected	Hello, chameleons like students.	2,3
+75	distilbert-base-uncased	LIKE	225	15	3	0.0917760613847349	8.232956767082214	8	4	plu	expected	Hello, chameleons like students.	2,3
+76	distilbert-base-uncased	LIKE	228	16	0	0.003676558491861206	10.413909435272217	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+77	distilbert-base-uncased	LIKE	231	16	1	0.2611930112179834	6.296017908636713	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+78	distilbert-base-uncased	LIKE	234	16	2	4.830071338801645e-05	14.33759593963623	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+79	distilbert-base-uncased	LIKE	237	16	3	0.07192442443556499	8.613551378250122	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+80	distilgpt2	BE	1	1	0	0.5088985040783882	2.9061107635498047	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+81	distilgpt2	BE	4	1	1	0.0459219701588153	4.444671630859375	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+82	distilgpt2	BE	7	1	2	0.0002657776058185	11.877492904663086	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+83	distilgpt2	BE	10	1	3	0.0320732370018959	4.962486267089844	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+84	distilgpt2	BE	13	1	4	0.0231145974248647	5.435051918029785	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+85	distilgpt2	BE	16	1	5	0.3108597898371954	5.3193689761683345	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+86	distilgpt2	BE	19	2	0	0.5088985040783882	2.9061107635498047	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+87	distilgpt2	BE	22	2	1	0.0459219701588153	4.444671630859375	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+88	distilgpt2	BE	25	2	2	0.0002657776058185	11.877492904663086	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+89	distilgpt2	BE	28	2	3	0.0004041462962049	11.272834777832031	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+90	distilgpt2	BE	31	2	4	0.0178946834057569	5.804325103759766	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+91	distilgpt2	BE	34	2	5	0.24549352660687873	5.65002665668726	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+92	distilgpt2	LIKE	37	3	0	0.5088985040783882	2.9061107635498047	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+93	distilgpt2	LIKE	40	3	1	0.0459219701588153	4.444671630859375	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+94	distilgpt2	LIKE	43	3	2	0.0002657776058185	11.877492904663086	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+95	distilgpt2	LIKE	46	3	3	2.978791962959804e-05	15.034913063049316	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+96	distilgpt2	LIKE	49	3	4	0.0429882816970348	4.539912700653076	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+97	distilgpt2	LIKE	52	3	5	0.27526719494926505	5.401656615547836	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+98	distilgpt2	LIKE	55	4	0	0.5088985040783882	2.9061107635498047	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+99	distilgpt2	LIKE	58	4	1	0.0459219701588153	4.444671630859375	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+100	distilgpt2	LIKE	61	4	2	0.0002657776058185	11.877492904663086	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+101	distilgpt2	LIKE	64	4	3	5.088945181341842e-05	14.262273788452148	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+102	distilgpt2	LIKE	67	4	4	0.018485452979803	5.757465839385986	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+103	distilgpt2	LIKE	70	4	5	0.2964365585212363	4.745732463430613	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+104	distilgpt2	BE	73	5	0	0.5088985040783882	2.9061107635498047	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+105	distilgpt2	BE	76	5	1	0.0459219701588153	4.444671630859375	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+106	distilgpt2	BE	79	5	2	0.3299760556595477	6.250157420833905	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+107	distilgpt2	BE	82	5	3	0.0930565297603607	3.425748825073242	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+108	distilgpt2	BE	85	5	4	0.1078622713685035	3.212737798690796	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+109	distilgpt2	BE	88	5	5	0.029299854570126602	8.465701818466187	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+110	distilgpt2	BE	91	6	0	0.5088985040783882	2.9061107635498047	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+111	distilgpt2	BE	94	6	1	0.0459219701588153	4.444671630859375	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+112	distilgpt2	BE	97	6	2	0.3299760556595477	6.250157420833905	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+113	distilgpt2	BE	100	6	3	0.0014112814096733	9.468778610229492	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+114	distilgpt2	BE	103	6	4	0.1106401681900024	3.1760528087615967	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+115	distilgpt2	BE	106	6	5	0.01610865810744143	10.050321817398071	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+116	distilgpt2	LIKE	109	7	0	0.5088985040783882	2.9061107635498047	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+117	distilgpt2	LIKE	112	7	1	0.0459219701588153	4.444671630859375	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+118	distilgpt2	LIKE	115	7	2	0.3299760556595477	6.250157420833905	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+119	distilgpt2	LIKE	118	7	3	0.0001965162664419	12.313063621520996	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+120	distilgpt2	LIKE	121	7	4	0.0491547882556915	4.346524238586426	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+121	distilgpt2	LIKE	124	7	5	0.0486961503252132	9.790541410446167	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+122	distilgpt2	LIKE	127	8	0	0.5088985040783882	2.9061107635498047	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+123	distilgpt2	LIKE	130	8	1	0.0459219701588153	4.444671630859375	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+124	distilgpt2	LIKE	133	8	2	0.3299760556595477	6.250157420833905	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+125	distilgpt2	LIKE	136	8	3	0.0004280701687093	11.189865112304688	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+126	distilgpt2	LIKE	139	8	4	0.0716262310743331	3.803368091583252	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+127	distilgpt2	LIKE	142	8	5	0.048579725167655845	8.624421238899231	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+128	distilgpt2	BE	145	9	0	0.508898489177227	2.9061119556427	5	3	plu	expected	Hello, students are chameleons.	2,3
+129	distilgpt2	BE	148	9	1	3.643777745310217e-05	14.744205474853516	5	3	plu	expected	Hello, students are chameleons.	2,3
+130	distilgpt2	BE	151	9	2	0.0458083376288414	4.448246002197266	5	3	plu	expected	Hello, students are chameleons.	2,3
+131	distilgpt2	BE	154	9	3	0.2631013808073476	6.132744964957237	5	3	plu	expected	Hello, students are chameleons.	2,3
+132	distilgpt2	BE	157	10	0	0.508898489177227	2.9061119556427	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+133	distilgpt2	BE	160	10	1	3.643777745310217e-05	14.744205474853516	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+134	distilgpt2	BE	163	10	2	0.0005580825381912	10.807233810424805	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+135	distilgpt2	BE	166	10	3	0.09585476741049204	6.562273168563843	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+136	distilgpt2	LIKE	169	11	0	0.508898489177227	2.9061119556427	6	3	plu	expected	Hello, students like chameleons.	2,3
+137	distilgpt2	LIKE	172	11	1	3.643777745310217e-05	14.744205474853516	6	3	plu	expected	Hello, students like chameleons.	2,3
+138	distilgpt2	LIKE	175	11	2	0.0014704526402056	9.409523963928224	6	3	plu	expected	Hello, students like chameleons.	2,3
+139	distilgpt2	LIKE	178	11	3	0.1940821469077491	5.781976068019867	6	3	plu	expected	Hello, students like chameleons.	2,3
+140	distilgpt2	LIKE	181	12	0	0.508898489177227	2.9061119556427	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+141	distilgpt2	LIKE	184	12	1	3.643777745310217e-05	14.744205474853516	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+142	distilgpt2	LIKE	187	12	2	4.055261342728045e-06	17.911773681640625	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+143	distilgpt2	LIKE	190	12	3	0.20988598414114673	5.362520337104797	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+144	distilgpt2	BE	193	13	0	0.508898489177227	2.9061119556427	7	4	plu	expected	Hello, chameleons are students.	2,3
+145	distilgpt2	BE	196	13	1	0.12380882247089173	6.494879275560379	7	4	plu	expected	Hello, chameleons are students.	2,3
+146	distilgpt2	BE	199	13	2	0.0200407896190881	5.64091682434082	7	4	plu	expected	Hello, chameleons are students.	2,3
+147	distilgpt2	BE	202	13	3	0.03690531485335667	9.171746850013733	7	4	plu	expected	Hello, chameleons are students.	2,3
+148	distilgpt2	BE	205	14	0	0.508898489177227	2.9061119556427	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+149	distilgpt2	BE	208	14	1	0.12380882247089173	6.494879275560379	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+150	distilgpt2	BE	211	14	2	0.0033581075258553	8.218135833740234	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+151	distilgpt2	BE	214	14	3	0.025987427222844403	11.584357738494871	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+152	distilgpt2	LIKE	217	15	0	0.508898489177227	2.9061119556427	8	4	plu	expected	Hello, chameleons like students.	2,3
+153	distilgpt2	LIKE	220	15	1	0.12380882247089173	6.494879275560379	8	4	plu	expected	Hello, chameleons like students.	2,3
+154	distilgpt2	LIKE	223	15	2	0.0014751179842278	9.404953956604004	8	4	plu	expected	Hello, chameleons like students.	2,3
+155	distilgpt2	LIKE	226	15	3	0.033468501486822747	9.521744728088379	8	4	plu	expected	Hello, chameleons like students.	2,3
+156	distilgpt2	LIKE	229	16	0	0.508898489177227	2.9061119556427	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+157	distilgpt2	LIKE	232	16	1	0.12380882247089173	6.494879275560379	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+158	distilgpt2	LIKE	235	16	2	4.5109693019185215e-05	14.436203002929688	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+159	distilgpt2	LIKE	238	16	3	0.05589521036699806	9.761748909950256	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+160	gpt2	BE	2	1	0	0.5480125211179256	1.69022274017334	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+161	gpt2	BE	5	1	1	0.0168231558054685	5.893407821655273	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+162	gpt2	BE	8	1	2	0.0002735481830313	11.835917472839355	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+163	gpt2	BE	11	1	3	0.0401074737310409	4.639985084533691	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+164	gpt2	BE	14	1	4	0.0157158616930246	5.991634845733643	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+165	gpt2	BE	17	1	5	0.30844397652981564	4.921103954780848	1	1	sing	expected	Hello, the student is the chameleon.	3,4
+166	gpt2	BE	20	2	0	0.5480125211179256	1.69022274017334	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+167	gpt2	BE	23	2	1	0.0168231558054685	5.893407821655273	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+168	gpt2	BE	26	2	2	0.0002735481830313	11.835917472839355	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+169	gpt2	BE	29	2	3	0.0005809036665596	10.74941349029541	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+170	gpt2	BE	32	2	4	0.0155174368992447	6.009965896606445	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+171	gpt2	BE	35	2	5	0.10387317699132834	5.789972752332687	1	1	sing	unexpected	Hello, the student are the chameleon.	3,4
+172	gpt2	LIKE	38	3	0	0.5480125211179256	1.69022274017334	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+173	gpt2	LIKE	41	3	1	0.0168231558054685	5.893407821655273	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+174	gpt2	LIKE	44	3	2	0.0002735481830313	11.835917472839355	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+175	gpt2	LIKE	47	3	3	5.051811967859976e-05	14.272839546203612	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+176	gpt2	LIKE	50	3	4	0.0619055144488811	4.013788223266602	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+177	gpt2	LIKE	53	3	5	0.2689393571563414	5.386713575571775	2	1	sing	expected	Hello, the student likes the chameleon.	3,4
+178	gpt2	LIKE	56	4	0	0.5480125211179256	1.69022274017334	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+179	gpt2	LIKE	59	4	1	0.0168231558054685	5.893407821655273	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+180	gpt2	LIKE	62	4	2	0.0002735481830313	11.835917472839355	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+181	gpt2	LIKE	65	4	3	0.0001399635802954	12.802660942077637	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+182	gpt2	LIKE	68	4	4	0.0277137998491525	5.173251628875732	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+183	gpt2	LIKE	71	4	5	0.26593852450605476	5.222659524530172	2	1	sing	unexpected	Hello, the student like the chameleon.	3,4
+184	gpt2	BE	74	5	0	0.5480125211179256	1.69022274017334	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+185	gpt2	BE	77	5	1	0.0168231558054685	5.893407821655273	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+186	gpt2	BE	80	5	2	0.30676743306685234	5.793150916695595	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+187	gpt2	BE	83	5	3	0.1586681008338928	2.6559159755706787	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+188	gpt2	BE	86	5	4	0.02797925285995	5.159498691558838	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+189	gpt2	BE	89	5	5	0.03531797804316735	8.23666000366211	3	2	sing	expected	Hello, the chameleon is the student.	3,4
+190	gpt2	BE	92	6	0	0.5480125211179256	1.69022274017334	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+191	gpt2	BE	95	6	1	0.0168231558054685	5.893407821655273	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+192	gpt2	BE	98	6	2	0.30676743306685234	5.793150916695595	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+193	gpt2	BE	101	6	3	0.0013222459238022	9.562793731689451	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+194	gpt2	BE	104	6	4	0.0283609423786401	5.139950752258301	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+195	gpt2	BE	107	6	5	0.013584118843937168	9.995524406433105	3	2	sing	unexpected	Hello, the chameleon are the student.	3,4
+196	gpt2	LIKE	110	7	0	0.5480125211179256	1.69022274017334	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+197	gpt2	LIKE	113	7	1	0.0168231558054685	5.893407821655273	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+198	gpt2	LIKE	116	7	2	0.30676743306685234	5.793150916695595	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+199	gpt2	LIKE	119	7	3	0.0003873639798257	11.334022521972656	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+200	gpt2	LIKE	122	7	4	0.0392737723886966	4.670289993286133	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+201	gpt2	LIKE	125	7	5	0.0894498116831528	9.198058247566223	4	2	sing	expected	Hello, the chameleon likes the student.	3,4
+202	gpt2	LIKE	128	8	0	0.5480125211179256	1.69022274017334	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+203	gpt2	LIKE	131	8	1	0.0168231558054685	5.893407821655273	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+204	gpt2	LIKE	134	8	2	0.30676743306685234	5.793150916695595	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+205	gpt2	LIKE	137	8	3	0.000459125963971	11.088822364807127	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+206	gpt2	LIKE	140	8	4	0.029826121404767	5.067279815673828	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+207	gpt2	LIKE	143	8	5	0.026402356146718303	8.52810549736023	4	2	sing	unexpected	Hello, the chameleon like the student.	3,4
+208	gpt2	BE	146	9	0	0.5480125844478607	1.6902217864990234	5	3	plu	expected	Hello, students are chameleons.	2,3
+209	gpt2	BE	149	9	1	8.310755947604775e-05	13.55466079711914	5	3	plu	expected	Hello, students are chameleons.	2,3
+210	gpt2	BE	152	9	2	0.0264992695301771	5.237903594970703	5	3	plu	expected	Hello, students are chameleons.	2,3
+211	gpt2	BE	155	9	3	0.3551542991262977	5.416653275489807	5	3	plu	expected	Hello, students are chameleons.	2,3
+212	gpt2	BE	158	10	0	0.5480125844478607	1.6902217864990234	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+213	gpt2	BE	161	10	1	8.310755947604775e-05	13.55466079711914	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+214	gpt2	BE	164	10	2	0.0007098170462995	10.460265159606934	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+215	gpt2	BE	167	10	3	0.10533580021801751	6.25863823890686	5	3	plu	unexpected	Hello, students is chameleons.	2,3
+216	gpt2	LIKE	170	11	0	0.5480125844478607	1.6902217864990234	6	3	plu	expected	Hello, students like chameleons.	2,3
+217	gpt2	LIKE	173	11	1	8.310755947604775e-05	13.55466079711914	6	3	plu	expected	Hello, students like chameleons.	2,3
+218	gpt2	LIKE	176	11	2	0.0008481858531013	10.20333194732666	6	3	plu	expected	Hello, students like chameleons.	2,3
+219	gpt2	LIKE	179	11	3	0.27013219654727433	5.410044646263122	6	3	plu	expected	Hello, students like chameleons.	2,3
+220	gpt2	LIKE	182	12	0	0.5480125844478607	1.6902217864990234	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+221	gpt2	LIKE	185	12	1	8.310755947604775e-05	13.55466079711914	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+222	gpt2	LIKE	188	12	2	2.6338782390666893e-06	18.534379959106445	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+223	gpt2	LIKE	191	12	3	0.31476820821117146	4.892058509588241	6	3	plu	unexpected	Hello, students likes chameleons.	2,3
+224	gpt2	BE	194	13	0	0.5480125844478607	1.6902217864990234	7	4	plu	expected	Hello, chameleons are students.	2,3
+225	gpt2	BE	197	13	1	0.15566934580419906	5.901820808649063	7	4	plu	expected	Hello, chameleons are students.	2,3
+226	gpt2	BE	200	13	2	0.0296258106827735	5.077001571655273	7	4	plu	expected	Hello, chameleons are students.	2,3
+227	gpt2	BE	203	13	3	0.08233046681198175	8.625032663345337	7	4	plu	expected	Hello, chameleons are students.	2,3
+228	gpt2	BE	206	14	0	0.5480125844478607	1.6902217864990234	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+229	gpt2	BE	209	14	1	0.15566934580419906	5.901820808649063	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+230	gpt2	BE	212	14	2	0.0012954757548868	9.592302322387695	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+231	gpt2	BE	215	14	3	0.06403919072681673	10.95654559135437	7	4	plu	unexpected	Hello, chameleons is students.	2,3
+232	gpt2	LIKE	218	15	0	0.5480125844478607	1.6902217864990234	8	4	plu	expected	Hello, chameleons like students.	2,3
+233	gpt2	LIKE	221	15	1	0.15566934580419906	5.901820808649063	8	4	plu	expected	Hello, chameleons like students.	2,3
+234	gpt2	LIKE	224	15	2	0.0009759829845279	10.000856399536133	8	4	plu	expected	Hello, chameleons like students.	2,3
+235	gpt2	LIKE	227	15	3	0.03770642425570257	9.536051630973816	8	4	plu	expected	Hello, chameleons like students.	2,3
+236	gpt2	LIKE	230	16	0	0.5480125844478607	1.6902217864990234	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+237	gpt2	LIKE	233	16	1	0.15566934580419906	5.901820808649063	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+238	gpt2	LIKE	236	16	2	2.136284274456557e-05	15.51453685760498	8	4	plu	unexpected	Hello, chameleons likes students.	2,3
+239	gpt2	LIKE	239	16	3	0.0876798494809918	8.77296781539917	8	4	plu	unexpected	Hello, chameleons likes students.	2,3

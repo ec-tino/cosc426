@@ -7,6 +7,7 @@ mode:
 models:
     hf_causal_model:
       - gpt2
+      - distilgpt2
 
     hf_masked_model:
       - distilbert-base-uncased

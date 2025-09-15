@@ -1,0 +1,9 @@
+	model	target_class	precision	recall	f1
+0	distilbert-base-uncased	O	0.8	0.13333333333333333	0.22857142857142856
+1	distilbert-base-uncased	B-location	0.2	0.1111111111111111	0.14285714285714285
+2	distilbert-base-uncased	I-location	0.08333333333333333	1.0	0.15384615384615385
+3	distilbert-base-uncased	B-group	0.0	0.0	0.0
+4	distilbert-base-uncased	.	0.0	0.0	0.0
+5	distilbert-base-uncased	B-person	0.0	0.0	0.0
+6	distilbert-base-uncased	I-person	0.0	0.0	0.0
+7	distilbert-base-uncased	:	0.0	0.0	0.0

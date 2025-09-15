@@ -1,0 +1,56 @@
+	textid	condition	wordpos	model	token	word	tokenizer	punctuation	target	predicted	prob	text
+0	1	full	0	distilbert-base-uncased	the	The	distilbert-base-uncased	False	O	B-group	0.1334835737943649	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+1	1	full	1	distilbert-base-uncased	golden	Golden	distilbert-base-uncased	False	B-location	B-group	0.1494013220071792	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+2	1	full	2	distilbert-base-uncased	state	State	distilbert-base-uncased	False	I-location	B-group	0.115712359547615	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+3	1	full	3	distilbert-base-uncased	war	Warrirors	distilbert-base-uncased	False	B-group	B-group	0.1210810765624046	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+4	1	full	4	distilbert-base-uncased	are	are	distilbert-base-uncased	False	O	B-group	0.1117480024695396	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+5	1	full	5	distilbert-base-uncased	an	an	distilbert-base-uncased	False	O	I-creative-work	0.1229123100638389	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+6	1	full	6	distilbert-base-uncased	american	American	distilbert-base-uncased	False	O	B-group	0.1387393772602081	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+7	1	full	7	distilbert-base-uncased	professional	professional	distilbert-base-uncased	False	O	I-creative-work	0.151605948805809	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+8	1	full	8	distilbert-base-uncased	basketball	basketball	distilbert-base-uncased	False	O	I-creative-work	0.1422305852174759	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+9	1	full	9	distilbert-base-uncased	team	team	distilbert-base-uncased	False	O	I-creative-work	0.1111393570899963	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+10	1	full	10	distilbert-base-uncased	based	based	distilbert-base-uncased	False	O	I-creative-work	0.1367614716291427	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+11	1	full	11	distilbert-base-uncased	in	in	distilbert-base-uncased	False	O	I-creative-work	0.124968871474266	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+12	1	full	12	distilbert-base-uncased	san	San	distilbert-base-uncased	False	B-location	B-group	0.1411881446838379	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+13	1	full	13	distilbert-base-uncased	francisco	Francisco	distilbert-base-uncased	False	B-location	B-group	0.1313958764076233	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+14	1	full	14	distilbert-base-uncased	.	.	distilbert-base-uncased	True	.	B-product	0.1171974018216133	The Golden State Warrirors are an American professional basketball team based in San Francisco.
+15	2	full	0	distilbert-base-uncased	klein	Kleinfeltersville	distilbert-base-uncased	False	B-location	B-corporation	0.1012614518404007	Kleinfeltersville is a town in Pennsylvania.
+16	2	full	1	distilbert-base-uncased	is	is	distilbert-base-uncased	False	O	O	0.129566416144371	Kleinfeltersville is a town in Pennsylvania.
+17	2	full	2	distilbert-base-uncased	a	a	distilbert-base-uncased	False	O	O	0.132866084575653	Kleinfeltersville is a town in Pennsylvania.
+18	2	full	3	distilbert-base-uncased	town	town	distilbert-base-uncased	False	O	I-product	0.1039672791957855	Kleinfeltersville is a town in Pennsylvania.
+19	2	full	4	distilbert-base-uncased	in	in	distilbert-base-uncased	False	O	I-product	0.1103008612990379	Kleinfeltersville is a town in Pennsylvania.
+20	2	full	5	distilbert-base-uncased	pennsylvania	Pennsylvania	distilbert-base-uncased	False	B-location	B-group	0.1488464325666427	Kleinfeltersville is a town in Pennsylvania.
+21	2	full	6	distilbert-base-uncased	.	.	distilbert-base-uncased	True	.	B-product	0.1229304745793342	Kleinfeltersville is a town in Pennsylvania.
+22	3	full	0	distilbert-base-uncased	no	Noam	distilbert-base-uncased	False	B-person	I-product	0.1112871766090393	Noam Chomsky is a soft revolution.
+23	3	full	1	distilbert-base-uncased	cho	Chomsky	distilbert-base-uncased	False	I-person	B-product	0.1050747260451316	Noam Chomsky is a soft revolution.
+24	3	full	2	distilbert-base-uncased	is	is	distilbert-base-uncased	False	O	B-group	0.1110865473747253	Noam Chomsky is a soft revolution.
+25	3	full	3	distilbert-base-uncased	a	a	distilbert-base-uncased	False	O	I-product	0.1191721633076667	Noam Chomsky is a soft revolution.
+26	3	full	4	distilbert-base-uncased	soft	soft	distilbert-base-uncased	False	O	I-product	0.1054554209113121	Noam Chomsky is a soft revolution.
+27	3	full	5	distilbert-base-uncased	revolution	revolution	distilbert-base-uncased	False	O	O	0.0996181145310401	Noam Chomsky is a soft revolution.
+28	3	full	6	distilbert-base-uncased	.	.	distilbert-base-uncased	True	.	B-product	0.1415189504623413	Noam Chomsky is a soft revolution.
+29	4	short	0	distilbert-base-uncased	the	The	distilbert-base-uncased	False	O	B-group	0.1270589232444763	The Golden State Warrirors: American professional basketball team based in San Francisco.
+30	4	short	1	distilbert-base-uncased	golden	Golden	distilbert-base-uncased	False	B-location	B-group	0.1522157192230224	The Golden State Warrirors: American professional basketball team based in San Francisco.
+31	4	short	2	distilbert-base-uncased	state	State	distilbert-base-uncased	False	I-location	B-group	0.1202398762106895	The Golden State Warrirors: American professional basketball team based in San Francisco.
+32	4	short	3	distilbert-base-uncased	war	Warrirors	distilbert-base-uncased	False	B-group	B-group	0.119371049106121	The Golden State Warrirors: American professional basketball team based in San Francisco.
+33	4	short	4	distilbert-base-uncased	:	:	distilbert-base-uncased	True	:	I-creative-work	0.1258872896432876	The Golden State Warrirors: American professional basketball team based in San Francisco.
+34	4	short	5	distilbert-base-uncased	american	American	distilbert-base-uncased	False	O	B-group	0.1318071335554123	The Golden State Warrirors: American professional basketball team based in San Francisco.
+35	4	short	6	distilbert-base-uncased	professional	professional	distilbert-base-uncased	False	O	I-creative-work	0.1502778530120849	The Golden State Warrirors: American professional basketball team based in San Francisco.
+36	4	short	7	distilbert-base-uncased	basketball	basketball	distilbert-base-uncased	False	O	I-creative-work	0.1391946524381637	The Golden State Warrirors: American professional basketball team based in San Francisco.
+37	4	short	8	distilbert-base-uncased	team	team	distilbert-base-uncased	False	O	I-creative-work	0.1143114119768142	The Golden State Warrirors: American professional basketball team based in San Francisco.
+38	4	short	9	distilbert-base-uncased	based	based	distilbert-base-uncased	False	O	I-creative-work	0.1346294283866882	The Golden State Warrirors: American professional basketball team based in San Francisco.
+39	4	short	10	distilbert-base-uncased	in	in	distilbert-base-uncased	False	O	I-creative-work	0.1310977935791015	The Golden State Warrirors: American professional basketball team based in San Francisco.
+40	4	short	11	distilbert-base-uncased	san	San	distilbert-base-uncased	False	O	B-group	0.1433876901865005	The Golden State Warrirors: American professional basketball team based in San Francisco.
+41	4	short	12	distilbert-base-uncased	francisco	Francisco	distilbert-base-uncased	False	O	B-group	0.1348623037338256	The Golden State Warrirors: American professional basketball team based in San Francisco.
+42	4	short	13	distilbert-base-uncased	.	.	distilbert-base-uncased	True	B-location	I-creative-work	0.1373692154884338	The Golden State Warrirors: American professional basketball team based in San Francisco.
+43	5	short	0	distilbert-base-uncased	klein	Kleinfeltersville	distilbert-base-uncased	False	B-location	B-corporation	0.0979585945606231	Kleinfeltersville: town in Pennsylvania.
+44	5	short	1	distilbert-base-uncased	:	:	distilbert-base-uncased	True	:	B-group	0.1102654635906219	Kleinfeltersville: town in Pennsylvania.
+45	5	short	2	distilbert-base-uncased	town	town	distilbert-base-uncased	False	O	B-corporation	0.095769003033638	Kleinfeltersville: town in Pennsylvania.
+46	5	short	3	distilbert-base-uncased	in	in	distilbert-base-uncased	False	O	B-group	0.1045989915728569	Kleinfeltersville: town in Pennsylvania.
+47	5	short	4	distilbert-base-uncased	pennsylvania	Pennsylvania	distilbert-base-uncased	False	B-location	B-group	0.1608569473028183	Kleinfeltersville: town in Pennsylvania.
+48	5	short	5	distilbert-base-uncased	.	.	distilbert-base-uncased	True	.	I-creative-work	0.1171552017331123	Kleinfeltersville: town in Pennsylvania.
+49	6	short	0	distilbert-base-uncased	no	Noam	distilbert-base-uncased	False	B-person	I-product	0.1110206991434097	Noam Chomsky: soft revolution.
+50	6	short	1	distilbert-base-uncased	cho	Chomsky	distilbert-base-uncased	False	I-person	B-product	0.1104854866862297	Noam Chomsky: soft revolution.
+51	6	short	2	distilbert-base-uncased	:	:	distilbert-base-uncased	True	:	B-group	0.1143855825066566	Noam Chomsky: soft revolution.
+52	6	short	3	distilbert-base-uncased	soft	soft	distilbert-base-uncased	False	O	I-product	0.1051018163561821	Noam Chomsky: soft revolution.
+53	6	short	4	distilbert-base-uncased	revolution	revolution	distilbert-base-uncased	False	O	B-group	0.0992274731397628	Noam Chomsky: soft revolution.
+54	6	short	5	distilbert-base-uncased	.	.	distilbert-base-uncased	True	.	B-group	0.1189090460538864	Noam Chomsky: soft revolution.

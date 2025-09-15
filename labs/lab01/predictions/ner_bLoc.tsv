@@ -1,0 +1,757 @@
+token	textid	word	wordpos	model	tokenizer	punctuation	target	predicted	prob
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	I-location	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-group	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+the	1	The	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6844140291213989
+golden	1	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6820178627967834
+state	1	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6743682026863098
+war	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5789311528205872
+##ri	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6281649470329285
+##ror	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6872599720954895
+##s	1	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5978203415870667
+are	1	are	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6683775782585144
+an	1	an	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6968659162521362
+american	1	American	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5453043580055237
+professional	1	professional	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7021711468696594
+basketball	1	basketball	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6729905009269714
+team	1	team	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6555625796318054
+based	1	based	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6053330302238464
+in	1	in	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6020843982696533
+san	1	San	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7162627577781677
+francisco	1	Francisco	13	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6765726208686829
+.	1	.	14	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6944616436958313
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+klein	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6135249733924866
+##felt	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_1	0.5212427973747253
+##ers	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.5777515769004822
+##ville	2	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6023958921432495
+is	2	is	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.644559919834137
+a	2	a	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7067286372184753
+town	2	town	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7234296202659607
+in	2	in	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6097450852394104
+pennsylvania	2	Pennsylvania	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6753383874893188
+.	2	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6647879481315613
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	B-person	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	B-person	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	I-person	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	I-person	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+no	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6957683563232422
+##am	3	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6329901814460754
+cho	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6455227732658386
+##ms	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6697108745574951
+##ky	3	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6023384928703308
+is	3	is	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5204652547836304
+a	3	a	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5219092965126038
+soft	3	soft	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5173038840293884
+revolution	3	revolution	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_1	0.5071489810943604
+.	3	.	6	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6859064698219299
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	I-location	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-group	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+the	4	The	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6670255661010742
+golden	4	Golden	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.677341103553772
+state	4	State	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.661331832408905
+war	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5821821689605713
+##ri	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6239109039306641
+##ror	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6842442154884338
+##s	4	Warrirors	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5762292742729187
+:	4	:	4	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6540378928184509
+american	4	American	5	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5661712884902954
+professional	4	professional	6	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6834631562232971
+basketball	4	basketball	7	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6558340787887573
+team	4	team	8	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6307024955749512
+based	4	based	9	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5764461755752563
+in	4	in	10	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5720328688621521
+san	4	San	11	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.702515721321106
+francisco	4	Francisco	12	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6554391980171204
+.	4	.	13	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.7037743330001831
+klein	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6076952219009399
+##felt	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_1	0.5384025573730469
+##ers	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.5767087936401367
+##ville	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.579809308052063
+:	5	:	1	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5793165564537048
+town	5	town	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6457371115684509
+in	5	in	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5513308048248291
+pennsylvania	5	Pennsylvania	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6441335082054138
+.	5	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5840684175491333
+klein	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_0	0.6076952219009399
+##felt	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_1	0.5384025573730469
+##ers	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_0	0.5767087936401367
+##ville	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_0	0.579809308052063
+:	5	:	1	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5793165564537048
+town	5	town	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6457371115684509
+in	5	in	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5513308048248291
+pennsylvania	5	Pennsylvania	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6441335082054138
+.	5	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5840684175491333
+klein	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6076952219009399
+##felt	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_1	0.5384025573730469
+##ers	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.5767087936401367
+##ville	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.579809308052063
+:	5	:	1	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5793165564537048
+town	5	town	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6457371115684509
+in	5	in	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5513308048248291
+pennsylvania	5	Pennsylvania	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6441335082054138
+.	5	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5840684175491333
+klein	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6076952219009399
+##felt	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_1	0.5384025573730469
+##ers	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.5767087936401367
+##ville	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.579809308052063
+:	5	:	1	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5793165564537048
+town	5	town	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6457371115684509
+in	5	in	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5513308048248291
+pennsylvania	5	Pennsylvania	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6441335082054138
+.	5	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5840684175491333
+klein	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.6076952219009399
+##felt	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_1	0.5384025573730469
+##ers	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.5767087936401367
+##ville	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	B-location	LABEL_0	0.579809308052063
+:	5	:	1	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5793165564537048
+town	5	town	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6457371115684509
+in	5	in	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5513308048248291
+pennsylvania	5	Pennsylvania	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6441335082054138
+.	5	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5840684175491333
+klein	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6076952219009399
+##felt	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_1	0.5384025573730469
+##ers	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.5767087936401367
+##ville	5	Kleinfeltersville	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.579809308052063
+:	5	:	1	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5793165564537048
+town	5	town	2	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6457371115684509
+in	5	in	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5513308048248291
+pennsylvania	5	Pennsylvania	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.6441335082054138
+.	5	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5840684175491333
+no	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	B-person	LABEL_0	0.7281535863876343
+##am	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	B-person	LABEL_0	0.6813105344772339
+cho	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.675248920917511
+##ms	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7150686383247375
+##ky	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.635907769203186
+:	6	:	2	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5568960309028625
+soft	6	soft	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.545586109161377
+revolution	6	revolution	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5405813455581665
+.	6	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6016493439674377
+no	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	I-person	LABEL_0	0.7281535863876343
+##am	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	I-person	LABEL_0	0.6813105344772339
+cho	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.675248920917511
+##ms	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7150686383247375
+##ky	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.635907769203186
+:	6	:	2	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5568960309028625
+soft	6	soft	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.545586109161377
+revolution	6	revolution	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5405813455581665
+.	6	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6016493439674377
+no	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_0	0.7281535863876343
+##am	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	:	LABEL_0	0.6813105344772339
+cho	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.675248920917511
+##ms	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7150686383247375
+##ky	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.635907769203186
+:	6	:	2	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5568960309028625
+soft	6	soft	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.545586109161377
+revolution	6	revolution	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5405813455581665
+.	6	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6016493439674377
+no	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.7281535863876343
+##am	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6813105344772339
+cho	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.675248920917511
+##ms	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7150686383247375
+##ky	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.635907769203186
+:	6	:	2	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5568960309028625
+soft	6	soft	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.545586109161377
+revolution	6	revolution	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5405813455581665
+.	6	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6016493439674377
+no	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.7281535863876343
+##am	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	O	LABEL_0	0.6813105344772339
+cho	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.675248920917511
+##ms	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7150686383247375
+##ky	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.635907769203186
+:	6	:	2	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5568960309028625
+soft	6	soft	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.545586109161377
+revolution	6	revolution	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5405813455581665
+.	6	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6016493439674377
+no	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.7281535863876343
+##am	6	Noam	0	distilbert-base-uncased	distilbert-base-uncased	False	.	LABEL_0	0.6813105344772339
+cho	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.675248920917511
+##ms	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.7150686383247375
+##ky	6	Chomsky	1	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.635907769203186
+:	6	:	2	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.5568960309028625
+soft	6	soft	3	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.545586109161377
+revolution	6	revolution	4	distilbert-base-uncased	distilbert-base-uncased	False		LABEL_0	0.5405813455581665
+.	6	.	5	distilbert-base-uncased	distilbert-base-uncased	True		LABEL_0	0.6016493439674377

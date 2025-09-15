@@ -1,0 +1,56 @@
+	textid	token	word	target	text	condition
+0	1	the	The	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+1	1	golden	Golden	B-location	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+2	1	state	State	I-location	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+3	1	war	Warrirors	B-group	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+4	1	are	are	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+5	1	an	an	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+6	1	american	American	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+7	1	professional	professional	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+8	1	basketball	basketball	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+9	1	team	team	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+10	1	based	based	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+11	1	in	in	O	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+12	1	san	San	B-location	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+13	1	francisco	Francisco	B-location	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+14	1	.	.	.	The Golden State Warrirors are an American professional basketball team based in San Francisco.	full
+15	2	klein	Kleinfeltersville	B-location	Kleinfeltersville is a town in Pennsylvania.	full
+16	2	is	is	O	Kleinfeltersville is a town in Pennsylvania.	full
+17	2	a	a	O	Kleinfeltersville is a town in Pennsylvania.	full
+18	2	town	town	O	Kleinfeltersville is a town in Pennsylvania.	full
+19	2	in	in	O	Kleinfeltersville is a town in Pennsylvania.	full
+20	2	pennsylvania	Pennsylvania	B-location	Kleinfeltersville is a town in Pennsylvania.	full
+21	2	.	.	.	Kleinfeltersville is a town in Pennsylvania.	full
+22	3	no	Noam	B-person	Noam Chomsky is a soft revolution.	full
+23	3	cho	Chomsky	I-person	Noam Chomsky is a soft revolution.	full
+24	3	is	is	O	Noam Chomsky is a soft revolution.	full
+25	3	a	a	O	Noam Chomsky is a soft revolution.	full
+26	3	soft	soft	O	Noam Chomsky is a soft revolution.	full
+27	3	revolution	revolution	O	Noam Chomsky is a soft revolution.	full
+28	3	.	.	.	Noam Chomsky is a soft revolution.	full
+29	4	the	The	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+30	4	golden	Golden	B-location	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+31	4	state	State	I-location	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+32	4	war	Warrirors	B-group	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+33	4	:	:	:	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+34	4	american	American	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+35	4	professional	professional	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+36	4	basketball	basketball	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+37	4	team	team	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+38	4	based	based	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+39	4	in	in	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+40	4	san	San	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+41	4	francisco	Francisco	O	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+42	4	.	.	B-location	The Golden State Warrirors: American professional basketball team based in San Francisco.	short
+43	5	klein	Kleinfeltersville	B-location	Kleinfeltersville: town in Pennsylvania.	short
+44	5	:	:	:	Kleinfeltersville: town in Pennsylvania.	short
+45	5	town	town	O	Kleinfeltersville: town in Pennsylvania.	short
+46	5	in	in	O	Kleinfeltersville: town in Pennsylvania.	short
+47	5	pennsylvania	Pennsylvania	B-location	Kleinfeltersville: town in Pennsylvania.	short
+48	5	.	.	.	Kleinfeltersville: town in Pennsylvania.	short
+49	6	no	Noam	B-person	Noam Chomsky: soft revolution.	short
+50	6	cho	Chomsky	I-person	Noam Chomsky: soft revolution.	short
+51	6	:	:	:	Noam Chomsky: soft revolution.	short
+52	6	soft	soft	O	Noam Chomsky: soft revolution.	short
+53	6	revolution	revolution	O	Noam Chomsky: soft revolution.	short
+54	6	.	.	.	Noam Chomsky: soft revolution.	short

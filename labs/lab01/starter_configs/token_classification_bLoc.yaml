@@ -8,13 +8,13 @@ models:
     hf_token_classification_model:
       - distilbert-base-uncased
 
-datafpath: ../cosc426/labs/lab01/data/ner.tsv
+datafpath: ../cosc426/labs/lab01/data/ner_byword.tsv
 
-predfpath: ../cosc426/labs/lab01/predictions/ner.tsv
+predfpath: ../cosc426/labs/lab01/predictions/ner_bLoc.tsv
 
-resultsfpath: ../cosc426/labs/lab01/results/ner.tsv
+resultsfpath: ../cosc426/labs/lab01/results/ner_bLoc.tsv
 
-save: by_cond, by_tokentype, by_word
+save: by_cond
 
 id2label:
     0: O
@@ -31,5 +31,11 @@ id2label:
     11: B-product
     12: I-product
 
-#add this to allow the model to consider punctuation in their analysis
-ignore_punctuation: False 
+ignore: O
+
+ignore_punctuation: False
+
+conditions: condition, targets
+# this config file outputs data for Q4 in part 2
+
+#maybe change the data file 

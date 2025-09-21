@@ -1,0 +1,22 @@
+exp: MinimalPair
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_causal_model:
+      - distilgpt2
+
+#datafpath: ../cosc426/hw/hw01/data/final_data.tsv
+datafpath: ../cosc426/hw/hw01/data/final_data_edit.tsv
+
+predfpath: ../cosc426/hw/hw01/predictions/ic_predictions_edit.tsv
+
+resultsfpath: ../cosc426/hw/hw01/results/ic_result_edit.tsv
+#resultsfpath: ../cosc426/hw/hw01/results/ic_result_freq_edit.tsv
+
+save: by_cond
+
+conditions: wordfreq
+#conditions: freq

@@ -1,0 +1,161 @@
+sentid	pairid	comparison	sentence	ROI	freq	wordfreq
+1	1	expected	Sally vexed Mary because Sally did it.	4	0	very low
+2	1	unexpected	Mary vexed Sally because Sally did it.	4	0	very low
+3	2	expected	Sally vexed Mary because Mary did it.	4	0	very low
+4	2	unexpected	Mary vexed Sally because Mary did it.	4	0	very low
+5	3	expected	Ben vexed John because Ben did it.	4	0	very low
+6	3	unexpected	John vexed Ben because Ben did it.	4	0	very low
+7	4	expected	Ben vexed John because John did it.	4	0	very low
+8	4	unexpected	John vexed Ben because John did it.	4	0	very low
+9	5	expected	Sally attracted Mary because Sally did it.	4	1	very low
+10	5	unexpected	Mary attracted Sally because Sally did it.	4	1	very low
+11	6	expected	Sally attracted Mary because Mary did it.	4	1	very low
+12	6	unexpected	Mary attracted Sally because Mary did it.	4	1	very low
+13	7	expected	Ben attracted John because Ben did it.	4	1	very low
+14	7	unexpected	John attracted Ben because Ben did it.	4	1	very low
+15	8	expected	Ben attracted John because John did it.	4	1	very low
+16	8	unexpected	John attracted Ben because John did it.	4	1	very low
+17	9	expected	Sally amused Mary because Sally did it.	4	7	very low
+18	9	unexpected	Mary amused Sally because Sally did it.	4	7	very low
+19	10	expected	Sally amused Mary because Mary did it.	4	7	very low
+20	10	unexpected	Mary amused Sally because Mary did it.	4	7	very low
+21	11	expected	Ben amused John because Ben did it.	4	7	very low
+22	11	unexpected	John amused Ben because Ben did it.	4	7	very low
+23	12	expected	Ben amused John because John did it.	4	7	very low
+24	12	unexpected	John amused Ben because John did it.	4	7	very low
+25	13	expected	Sally intrigued Mary because Sally did it.	4	17	very low
+26	13	unexpected	Mary intrigued Sally because Sally did it.	4	17	very low
+27	14	expected	Sally intrigued Mary because Mary did it.	4	17	very low
+28	14	unexpected	Mary intrigued Sally because Mary did it.	4	17	very low
+29	15	expected	Ben intrigued John because Ben did it.	4	17	very low
+30	15	unexpected	John intrigued Ben because Ben did it.	4	17	very low
+31	16	expected	Ben intrigued John because John did it.	4	17	very low
+32	16	unexpected	John intrigued Ben because John did it.	4	17	very low
+33	17	expected	Sally enraged Mary because Sally did it.	4	25	low
+34	17	unexpected	Mary enraged Sally because Sally did it.	4	25	low
+35	18	expected	Sally enraged Mary because Mary did it.	4	25	low
+36	18	unexpected	Mary enraged Sally because Mary did it.	4	25	low
+37	19	expected	Ben enraged John because Ben did it.	4	25	low
+38	19	unexpected	John enraged Ben because Ben did it.	4	25	low
+39	20	expected	Ben enraged John because John did it.	4	25	low
+40	20	unexpected	John enraged Ben because John did it.	4	25	low
+41	21	expected	Sally bothered Mary because Sally did it.	4	71	low
+42	21	unexpected	Mary bothered Sally because Sally did it.	4	71	low
+43	22	expected	Sally bothered Mary because Mary did it.	4	71	low
+44	22	unexpected	Mary bothered Sally because Mary did it.	4	71	low
+45	23	expected	Ben bothered John because Ben did it.	4	71	low
+46	23	unexpected	John bothered Ben because Ben did it.	4	71	low
+47	24	expected	Ben bothered John because John did it.	4	71	low
+48	24	unexpected	John bothered Ben because John did it.	4	71	low
+49	25	expected	Sally welcomed Mary because Sally did it.	4	88	low
+50	25	unexpected	Mary welcomed Sally because Sally did it.	4	88	low
+51	26	expected	Sally welcomed Mary because Mary did it.	4	88	low
+52	26	unexpected	Mary welcomed Sally because Mary did it.	4	88	low
+53	27	expected	Ben welcomed John because Ben did it.	4	88	low
+54	27	unexpected	John welcomed Ben because Ben did it.	4	88	low
+55	28	expected	Ben welcomed John because John did it.	4	88	low
+56	28	unexpected	John welcomed Ben because John did it.	4	88	low
+57	29	expected	Sally trusted Mary because Sally did it.	4	53	low
+58	29	unexpected	Mary trusted Sally because Sally did it.	4	53	low
+59	30	expected	Sally trusted Mary because Mary did it.	4	53	low
+60	30	unexpected	Mary trusted Sally because Mary did it.	4	53	low
+61	31	expected	Ben trusted John because Ben did it.	4	53	low
+62	31	unexpected	John trusted Ben because Ben did it.	4	53	low
+63	32	expected	Ben trusted John because John did it.	4	53	low
+64	32	unexpected	John trusted Ben because John did it.	4	53	low
+65	33	expected	Sally feared Mary because Sally did it.	4	106	mid
+66	33	unexpected	Mary feared Sally because Sally did it.	4	106	mid
+67	34	expected	Sally feared Mary because Mary did it.	4	106	mid
+68	34	unexpected	Mary feared Sally because Mary did it.	4	106	mid
+69	35	expected	Ben feared John because Ben did it.	4	106	mid
+70	35	unexpected	John feared Ben because Ben did it.	4	106	mid
+71	36	expected	Ben feared John because John did it.	4	106	mid
+72	36	unexpected	John feared Ben because John did it.	4	106	mid
+73	37	expected	Sally calmed Mary because Sally did it.	4	153	mid
+74	37	unexpected	Mary calmed Sally because Sally did it.	4	153	mid
+75	38	expected	Sally calmed Mary because Mary did it.	4	153	mid
+76	38	unexpected	Mary calmed Sally because Mary did it.	4	153	mid
+77	39	expected	Ben calmed John because Ben did it.	4	153	mid
+78	39	unexpected	John calmed Ben because Ben did it.	4	153	mid
+79	40	expected	Ben calmed John because John did it.	4	153	mid
+80	40	unexpected	John calmed Ben because John did it.	4	153	mid
+81	41	expected	Sally sickened Mary because Sally did it.	4	211	mid
+82	41	unexpected	Mary sickened Sally because Sally did it.	4	211	mid
+83	42	expected	Sally sickened Mary because Mary did it.	4	211	mid
+84	42	unexpected	Mary sickened Sally because Mary did it.	4	211	mid
+85	43	expected	Ben sickened John because Ben did it.	4	211	mid
+86	43	unexpected	John sickened Ben because Ben did it.	4	211	mid
+87	44	expected	Ben sickened John because John did it.	4	211	mid
+88	44	unexpected	John sickened Ben because John did it.	4	211	mid
+89	45	expected	Sally answered Mary because Sally did it.	4	280	mid
+90	45	unexpected	Mary answered Sally because Sally did it.	4	280	mid
+91	46	expected	Sally answered Mary because Mary did it.	4	280	mid
+92	46	unexpected	Mary answered Sally because Mary did it.	4	280	mid
+93	47	expected	Ben answered John because Ben did it.	4	280	mid
+94	47	unexpected	John answered Ben because Ben did it.	4	280	mid
+95	48	expected	Ben answered John because John did it.	4	280	mid
+96	48	unexpected	John answered Ben because John did it.	4	280	mid
+97	49	expected	Sally intimidated Mary because Sally did it.	4	320	high
+98	49	unexpected	Mary intimidated Sally because Sally did it.	4	320	high
+99	50	expected	Sally intimidated Mary because Mary did it.	4	320	high
+100	50	unexpected	Mary intimidated Sally because Mary did it.	4	320	high
+101	51	expected	Ben intimidated John because Ben did it.	4	320	high
+102	51	unexpected	John intimidated Ben because Ben did it.	4	320	high
+103	52	expected	Ben intimidated John because John did it.	4	320	high
+104	52	unexpected	John intimidated Ben because John did it.	4	320	high
+105	53	expected	Sally excused Mary because Sally did it.	4	381	high
+106	53	unexpected	Mary excused Sally because Sally did it.	4	381	high
+107	54	expected	Sally excused Mary because Mary did it.	4	381	high
+108	54	unexpected	Mary excused Sally because Mary did it.	4	381	high
+109	55	expected	Ben excused John because Ben did it.	4	381	high
+110	55	unexpected	John excused Ben because Ben did it.	4	381	high
+111	56	expected	Ben excused John because John did it.	4	381	high
+112	56	unexpected	John excused Ben because John did it.	4	381	high
+113	57	expected	Sally charmed Mary because Sally did it.	4	418	high
+114	57	unexpected	Mary charmed Sally because Sally did it.	4	418	high
+115	58	expected	Sally charmed Mary because Mary did it.	4	418	high
+116	58	unexpected	Mary charmed Sally because Mary did it.	4	418	high
+117	59	expected	Ben charmed John because Ben did it.	4	418	high
+118	59	unexpected	John charmed Ben because Ben did it.	4	418	high
+119	60	expected	Ben charmed John because John did it.	4	418	high
+120	60	unexpected	John charmed Ben because John did it.	4	418	high
+121	61	expected	Sally led Mary because Sally did it.	4	490	high
+122	61	unexpected	Mary led Sally because Sally did it.	4	490	high
+123	62	expected	Sally led Mary because Mary did it.	4	490	high
+124	62	unexpected	Mary led Sally because Mary did it.	4	490	high
+125	63	expected	Ben led John because Ben did it.	4	490	high
+126	63	unexpected	John led Ben because Ben did it.	4	490	high
+127	64	expected	Ben led John because John did it.	4	490	high
+128	64	unexpected	John led Ben because John did it.	4	490	high
+129	65	expected	Sally met Mary because Sally did it.	4	530	very high
+130	65	unexpected	Mary met Sally because Sally did it.	4	530	very high
+131	66	expected	Sally met Mary because Mary did it.	4	530	very high
+132	66	unexpected	Mary met Sally because Mary did it.	4	530	very high
+133	67	expected	Ben met John because Ben did it.	4	530	very high
+134	67	unexpected	John met Ben because Ben did it.	4	530	very high
+135	68	expected	Ben met John because John did it.	4	530	very high
+136	68	unexpected	John met Ben because John did it.	4	530	very high
+137	69	expected	Sally invigorated Mary because Sally did it.	4	842	very high
+138	69	unexpected	Mary invigorated Sally because Sally did it.	4	842	very high
+139	70	expected	Sally invigorated Mary because Mary did it.	4	842	very high
+140	70	unexpected	Mary invigorated Sally because Mary did it.	4	842	very high
+141	71	expected	Ben invigorated John because Ben did it.	4	842	very high
+142	71	unexpected	John invigorated Ben because Ben did it.	4	842	very high
+143	72	expected	Ben invigorated John because John did it.	4	842	very high
+144	72	unexpected	John invigorated Ben because John did it.	4	842	very high
+145	73	expected	Sally peeved Mary because Sally did it.	4	931	very high
+146	73	unexpected	Mary peeved Sally because Sally did it.	4	931	very high
+147	74	expected	Sally peeved Mary because Mary did it.	4	931	very high
+148	74	unexpected	Mary peeved Sally because Mary did it.	4	931	very high
+149	75	expected	Ben peeved John because Ben did it.	4	931	very high
+150	75	unexpected	John peeved Ben because Ben did it.	4	931	very high
+151	76	expected	Ben peeved John because John did it.	4	931	very high
+152	76	unexpected	John peeved Ben because John did it.	4	931	very high
+153	77	expected	Sally favoured Mary because Sally did it.	4	995	very high
+154	77	unexpected	Mary favoured Sally because Sally did it.	4	995	very high
+155	78	expected	Sally favoured Mary because Mary did it.	4	995	very high
+156	78	unexpected	Mary favoured Sally because Mary did it.	4	995	very high
+157	79	expected	Ben favoured John because Ben did it.	4	995	very high
+158	79	unexpected	John favoured Ben because Ben did it.	4	995	very high
+159	80	expected	Ben favoured John because John did it.	4	995	very high
+160	80	unexpected	John favoured Ben because John did it.	4	995	very high

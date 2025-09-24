@@ -1,0 +1,16 @@
+exp: MinimalPair
+
+mode: 
+    - train
+
+models:
+    hf_causal_model:
+      - distilgpt2
+
+trainfpath: ../cosc426/hw/hw02/train_file.tsv
+
+validfpath: ../cosc426/hw/hw02/validation_file.tsv
+
+modelfpath: ../cosc426/hw/hw02/model
+
+loadPretrained: True

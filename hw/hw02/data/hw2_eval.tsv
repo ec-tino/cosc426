@@ -1,0 +1,21 @@
+sentid	pairid	comparison	sentence
+1	1	expected	the Force you seek
+2	1	unexpected	you seek the Force
+3	2	expected	the path the Jedi follow
+4	2	unexpected	the Jedi follow the path
+5	3	expected	you I teach
+6	3	unexpected	I teach you
+7	4	expected	fight the Jedi do
+8	4	unexpected	the Jedi fight
+9	5	expected	sleep you do
+10	5	unexpected	you sleep
+11	6	expected	in the night fight the Jedi do
+12	6	unexpected	the Jedi fight in the night
+13	7	expected	the Force through the darkness the Jedi seek
+14	7	unexpected	the Jedi seek the Force through the darkness
+15	8	expected	the Jedi the darkness in the night teach
+16	8	unexpected	the darkness in the night teach the Jedi
+17	9	expected	in the night in the rain fight the Jedi do
+18	9	unexpected	the Jedi fight in the night in the rain
+19	10	expected	in the rain in the night fight the Jedi do
+20	10	unexpected	the Jedi fight in the night in the rain

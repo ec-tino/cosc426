@@ -1,0 +1,18 @@
+exp: MinimalPair
+
+mode: 
+    - evaluate
+    - analyze
+
+models:
+    hf_causal_model:
+      - distilgpt2
+
+datafpath: ../cosc426/hw/hw02/data/hw2_eval.tsv
+
+predfpath: ../cosc426/hw/hw02/predictions/hw2_pred.tsv
+
+resultsfpath: ../cosc426/hw/hw02/results/hw2_result.tsv
+
+save: by_pair
+

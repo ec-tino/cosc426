@@ -50,10 +50,6 @@ def generate(rule, logprob, sentence, grammar):
     sentence = [x.replace("'", "") for x in sentence]
     return(' '.join(sentence), np.sum(logprob))
 
-
-
-
-
 def generate_sentences(grammar: dict, num_sents: int) -> list:
     """
     Generates num_sents, sampled probabilistically from grammar
@@ -81,8 +77,32 @@ def print_parses(sent, grammar_fname):
     for tree in parses:
         tree.pretty_print()
 
+def is_grammatical(grammar_fname, sentence):
+    return len(parse_sentence(grammar_fname, sentence)) != 0
 
-
+def write_sents(grammar: dict, num: int, output_f1: str, output_f2: str):
+    sentences = generate_sentences(grammar, num)
+    
+    with open(output_f1, 'w') as train_file:
+        next = 0
+        train_file.write("text\n")
+        while next < len(sentences) * 0.9:
+            train_file.write(sentences[next][0] + '\n')
+            next += 1
+    
+    with open(output_f2, 'w') as validation_file:
+        next = int(len(sentences) * 0.9) 
+        validation_file.write("text\n") 
+        while next < len(sentences):
+            validation_file.write(sentences[next][0] + '\n')
+            next += 1      
+    
+def main():
+    grammar = create_pcfg('hw2_grammar_yoda.txt')
+    write_sents(grammar, 1000, 'train_file.tsv', 'validation_file.tsv')   
+    
+main()
+    
 
 
 

@@ -76,7 +76,7 @@ For this part, do the following:
 
 IMPORTANT: You should make sure that:
 
-*  NPs that are marked as SubjNP in the SAE parse are also marked as SubjNP in the `yoda-speak` parse. 
+*  NPs that are marked as SubjNP in the SAE parse are also marked as SubjNP in the `yoda-speak` parse. HOW DO I CHECK THIS??
 * NPs that are marked as ObjNP in the SAE parse are also marked as ObjNP in the `yoda-speak` parse. 
 * If a PP is the sister of the verb in SAE, it is also the sister of the verb in `yoda-speak`
 
@@ -86,7 +86,7 @@ In this part, you will compare the probability that the model assigns to `yoda-s
 
 For this part, do the following: 
 
-* Create `hw2_eval.tsv` which sets up the minimal pairs necessary for the experiment.  
+* Create `hw2_eval.tsv` which sets up the minimal pairs necessary for the experiment.  HOW DO I SET UP THE MINIMAL PAIR IF IM LOOKING FOR PROB OF SENTENCES WITH MORE THAN ONE DIFFERENCE???????
 
 * Run the minimal pair experiment.
 
@@ -100,9 +100,9 @@ In this part, you will use NLPScholar's `train` mode to finetune an existing mod
 
 For this part, do the following: 
 
-* Using the helper functions in `HW3.py`, create a dataset with 10000 sentences in `yoda-speak`. Take 90% of this for the required training file, and 10% of this for the required validation file.  
+* Using the helper functions in `HW3.py`, create a dataset with 10000 sentences in `yoda-speak`. Take 90% of this for the required training file, and 10% of this for the required validation file.  WHAT IS THE CORRECT FORMAT OF THE TRAINING FILE I NEED??????. {TSV; DO THEY NEED HEADINGS??}
 
-* Finetune a model on this dataset. (*Hint: to understand the difference between train and finetune look at the `loadPretrained` parameter*)
+* Finetune a model on this dataset. (*Hint: to understand the difference between train and finetune look at the `loadPretrained` parameter*) #WHAT IS THE MODELFPATH SUPPOSED TO BE... should it be local??
 
 * Run the minimal pair experiment from Part 2 on this finetuned model. 
 

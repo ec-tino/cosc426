@@ -1,5 +1,7 @@
 import math
 import doctest
+import nltk
+nltk.download('punkt_tab')
 
 def getVocab(vocab_fname: str) -> set: 
     """
@@ -16,8 +18,17 @@ def getVocab(vocab_fname: str) -> set:
     >>> len(getVocab('data/glove_vocab.txt'))
     400003
     """
-
-    pass
+    try:
+        with open(vocab_fname,'r') as text_file:
+            my_vocab = {'[UNK]', '[BOS]', '[EOS]'}
+            for line in text_file.readlines():
+                for word in line.strip().split():
+                    my_vocab.add(word)
+        return my_vocab
+        
+    except FileNotFoundError:
+        print("File not found!!")
+        
 
 def preprocess(textfname:str, mark_ends: bool) -> list:
     """
@@ -37,7 +48,22 @@ def preprocess(textfname:str, mark_ends: bool) -> list:
     [['one', 'thing', 'was', 'certain', ',', 'that', 'the', '_white_', 'kitten', 'had', 'had', 'nothing', 'to', 'do', 'with', 'it', ':', '—it', 'was', 'the', 'black', 'kitten', '’', 's', 'fault', 'entirely', '.'], ['for', 'the', 'white', 'kitten', 'had', 'been', 'having', 'its', 'face', 'washed', 'by', 'the', 'old', 'cat', 'for', 'the', 'last', 'quarter', 'of', 'an', 'hour', '(', 'and', 'bearing', 'it', 'pretty', 'well', ',', 'considering', ')', ';', 'so', 'you', 'see', 'that', 'it', '_couldn', '’', 't_', 'have', 'had', 'any', 'hand', 'in', 'the', 'mischief', '.']]
 
     """
-    pass
+    try:
+        with open(textfname,'r') as text_file:
+            all_words = []
+            file_text = text_file.read()
+            sentences = nltk.sent_tokenize(file_text)
+            for sent in sentences:
+                tokens = nltk.word_tokenize(sent)
+                tokens = [item.lower() for item in tokens]           #make all lower case
+                if mark_ends:
+                    tokens.insert(0, '[BOS]')
+                    tokens.append('[EOS]')
+                all_words.append(tokens)
+            return all_words
+        
+    except FileNotFoundError:
+        print("File not found!!")
 
 
 def TestBigramFreqs(freq_dict, print_non1 = False):
@@ -74,7 +100,54 @@ def getBigramFreqs(preprocessed_text:list, vocab:set) -> dict:
     {2: [('kitten', 'had'), ('.', '[EOS]'), ('for', 'the')]}
 
     """
-    pass
+    #preprocessed_text is a 2d array
+    my_bigram = {}
+    for sent in preprocessed_text:
+        idx = 0
+        while idx < len(sent) - 1: # loop to the last but one index 
+            curr_word = sent[idx]
+            if curr_word not in vocab:
+                curr_word = '[UNK]'
+            next_word = sent[idx+1]
+            if next_word not in vocab:
+                next_word = '[UNK]'
+            if (curr_word, next_word) in my_bigram:
+                my_bigram[(curr_word, next_word)] += 1
+            else:
+                my_bigram[(curr_word, next_word)] = 1
+            idx += 1
+    return my_bigram
+
+
+def get_word_freq_dict(sentences: list, vocabs: set):
+    """counts the number of times a given word appears in a preprocessed corpus
+    Args:
+        sentences (list): a 2d array with each sentence as a sublist in the bigger list
+        word (_type_): the word we are looking to count
+    """
+    word_freq = {"[UNK]": 0, '[EOS]': 0, '[BOS]': 0} #'[UNK]', '[BOS]', '[EOS]'}
+    for sent in sentences:
+        for word in sent:
+            if word == '[EOS]':
+                word_freq['[EOS]'] += 1
+            elif word == '[BOS]':
+                word_freq['[BOS]'] += 1
+                
+            elif word not in vocabs:
+                word_freq['[UNK]'] += 1 
+            if word in word_freq:
+                word_freq[word] += 1
+            else:
+                word_freq[word] = 1
+    return word_freq
+
+
+def corpus_size(sentences):
+    count = 0
+    for sent in sentences:
+        count += len(sent)
+    return count
+
 
 def getBigramProb(bigram: tuple, smooth: str, **kwargs):
     """
@@ -110,5 +183,62 @@ def getBigramProb(bigram: tuple, smooth: str, **kwargs):
             ('zzzzzzz', 'the') 2.4999562507656116e-06
 
     """
-    pass
+    k = 0 #no smoothing by default
+    if smooth != "MLE" and smooth[:4] != "add-": #invalid smoothing value
+        return -1
+    
+    #get the dictionary from kwargs
+    bigram_dict = kwargs['bigram_dict'] #gives freq dict
+    vocabs = kwargs['vocabs'] #the vocabulary of the model
+    word_freqs = kwargs['dict_word_freq'] #dictionary of trained courpus words along with their frequiencies
+    
+    bigram_count = 0 #for cases where bigram is not present in my bigram dictionary
+    if bigram in bigram_dict:
+        bigram_count = bigram_dict[bigram] #update bigram count to how many times bigram occured
+    
+    #if the word is not in training corpus, use frequency of unknown words
+    prev_word = bigram[0]
+    if prev_word not in word_freqs:
+        word_freq = word_freqs['[UNK]']
+    else:
+        word_freq = word_freqs[prev_word] #use dictionary to retrieve freq of word
+        
+    if smooth != "MLE":  #retrieve k if smooth is add-k
+        k = float(smooth[4:]) 
+        
+    return (bigram_count + k) / (word_freq + len(vocabs)*k)
 
+#code to evaluate model: we use the perplexity formula to evaluate the model; 
+#N is the size of the corpus; we defined eps to address the problem of computing log(0). 
+def evaluate_model(N, sentences, smoothing, vocab, bigram_freq, word_freqs):
+    total_log_sum = 0
+    eps = 0.0001 
+    for sent in sentences:
+        for i in range(1, len(sent)):                
+            prob = getBigramProb((sent[i-1],sent[i]), smoothing, bigram_dict = bigram_freq, vocabs = vocab, dict_word_freq = word_freqs) 
+            if prob == 0: 
+                prob += eps #this is to prevent calciulating log 0
+            total_log_sum += -math.log2(prob)  
+    return pow(2, total_log_sum/N)     
+
+def main():
+    if __name__ == "__main__":
+        doctest.testmod()
+    vocab = getVocab('data/glove_vocab.txt')
+    sentences = preprocess('data/test.txt', mark_ends=True)
+    bigram_freq = getBigramFreqs(sentences, vocab)
+    N = corpus_size(sentences)
+    word_freq = get_word_freq_dict(sentences, vocab) #dictionary with words and their frequencies
+    #print(word_freq)
+        
+    #print(evaluate_model(N, sentences, "add-0.0001", vocab, bigram_freq, word_freq))
+    
+    
+    #clean sentences of punctuations and use actual words
+    #print(getBigramProb(('one','thing'), "MLE", bigram_dict = bigram_freq, vocabs = vocab, dict_word_freq = word_freq))
+    print(getBigramProb(('on','the'), "add-1", bigram_dict = bigram_freq, vocabs = vocab, dict_word_freq = word_freq))
+    print(getBigramProb(('held','a'), "add-1", bigram_dict = bigram_freq, vocabs = vocab, dict_word_freq = word_freq))
+    #print(getBigramProb(('zzzzzzz','the'), "MLE", bigram_dict = bigram_freq, vocabs = vocab, dict_word_freq = word_freq))    
+    #print(evaluate_model(N, sentences, "MLE", vocab, bigram_freq))
+    
+main() 

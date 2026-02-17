@@ -33,7 +33,14 @@ class LM_Dataset(torch.utils.data.Dataset):
         Returns a set of all the words in the vocab file + [BOS] and [EOS]. Words in the vocab should be lowercased if self.lower is True. 
 
         """
-        pass
+        vocab_set = {'[BOS]', '[EOS]'}
+        with open(self.vocab_fname, 'r', encoding='utf-8') as f:
+            for line in f:
+                word = line.strip()
+                if self.lower:
+                    word = word.lower()
+                vocab_set.add(word)
+        return vocab_set
 
     def load_text(self):
         """
@@ -41,7 +48,22 @@ class LM_Dataset(torch.utils.data.Dataset):
         Sentences should be lowercased if self.lower is True.
 
         """
-        pass
+        sentences = []
+        sentids = []
+        with open(self.data_fname, 'r', encoding='utf-8') as f:
+            header_line = next(f).strip().split('\t')
+            sentid_idx = header_line.index('sentid')
+            sentence_idx = header_line.index('sentence')
+            
+            for line in f:
+                parts = line.strip().split('\t')
+                if len(parts) >= 2:
+                    sentid, sentence = parts[sentid_idx], parts[sentence_idx]
+                    if self.lower:
+                        sentence = sentence.lower()
+                    sentences.append(sentence)
+                    sentids.append(sentid)
+        return sentences, sentids
 
 
 
@@ -208,12 +230,12 @@ class LM_Evaluator():
         total_loss = 0
         for i, datapoint in enumerate(self.test_loader):
             X,y_target = datapoint
-            hidden, cell = model.init_hidden(X.size(0))
+            hidden, cell = model.init_hidden(X.size(0)) #this
 
             X,y_target = X.to(self.device), y_target.to(self.device)
-            y_pred, hidden, cell = model(X, hidden, cell)
+            y_pred, hidden, cell = model(X, hidden, cell) 
 
-            y_pred_reshaped = y_pred.reshape(-1, model.vocabSize) 
+            y_pred_reshaped = y_pred.reshape(-1, model.vocabSize) #this
 
             loss = model.loss(y_pred_reshaped, y_target.flatten().long())
 
@@ -233,8 +255,26 @@ class LM_Evaluator():
         Hint 2: Pytorch has an inbuilt softmax function that can convert logits to probabilities.   
 
         """
-        pass
+        words = []
+        probs = []
+        for i,datapoint in enumerate(self.test_loader):
+            X,y_target = datapoint
+            hidden, cell = model.init_hidden(X.size(0)) 
 
+            X,y_target = X.to(self.device), y_target.to(self.device)
+            y_pred, hidden, cell = model(X, hidden, cell) 
+
+            softmax = torch.nn.Softmax(dim=2)
+            y_probs = softmax(y_pred)
+
+            word_probs = self.get_word_prob(y_target.flatten(), y_probs.reshape(-1, model.vocabSize))
+
+            words.append(y_target.flatten().cpu().tolist()) #go through each words in context 
+            probs.append(word_probs.cpu().tolist()) 
+
+        return words, probs
+    
+    @torch.no_grad()
     def save_preds(self, models, fpath):
         """
         Params:
@@ -245,7 +285,25 @@ class LM_Evaluator():
             Nothing. But saves a tsv file with columns in self.cols
 
         """
-        pass
+        all_data = []
+        for model_name, model in models.items():
+            words, probs = self.get_preds(model)
+            for i in range(len(words)):
+                word_ids = words[i]
+                word_probs = probs[i]
+                for j in range(len(word_ids)):
+                    word_id = word_ids[j]
+                    prob = word_probs[j]
+                    word = self.data.id_to_word[word_id]
+                    token = word # self.data.tokenized #find way to get original word if needed
+                    sentid = self.data.sentids[i]
+                    wordpos = j
+                    punc = "True" if all(char in '.,!?;:' for char in word) else "False"
+                    surprisal = -torch.log2(torch.tensor(prob)).item()
+                    all_data.append([token, sentid, word, wordpos, model_name, 'nltk_tokenizer', punc, prob, surprisal])
+        #['token', 'sentid', 'word', 'wordpos', 'model', 'tokenizer', 'punctuation', 'prob', 'surp']
+        df = pd.DataFrame(all_data, columns=self.cols)
+        df.to_csv(fpath, sep='\t', index=False)
 
 
 

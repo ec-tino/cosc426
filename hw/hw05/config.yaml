@@ -1,0 +1,16 @@
+exp: MinimalPair
+
+mode:
+    - analyze
+
+datafpath: '../cosc426/hw/hw05/data/eval.tsv'
+
+#predfpath: '../cosc426/hw/hw05/output/predictions1.tsv'
+predfpath: '../cosc426/hw/hw05/output/bidirect_predictions1.tsv' #birectional model predictions
+
+#resultsfpath: '../cosc426/hw/hw05/results/result.tsv'
+resultsfpath: '../cosc426/hw/hw05/results/bidirect_result.tsv'
+
+conditions: lang
+
+save: by_cond
